@@ -54,6 +54,7 @@ namespace LibraryApp.Forms
                 user.FirstName = this.tbFirstName.Text;
                 user.LastName = this.tbLastName.Text;
                 user.DateOfBirth = this.mcDate.SelectionStart;
+                user.Role = "User";
                 await _userRepo.Add(user);
             }
             else
