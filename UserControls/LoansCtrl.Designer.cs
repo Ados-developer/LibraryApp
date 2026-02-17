@@ -102,7 +102,7 @@
             btnDelete.Name = "btnDelete";
             btnDelete.Size = new Size(170, 45);
             btnDelete.TabIndex = 7;
-            btnDelete.Text = "Vymazať";
+            btnDelete.Text = "Delete";
             btnDelete.TextImageRelation = TextImageRelation.ImageBeforeText;
             btnDelete.UseVisualStyleBackColor = false;
             btnDelete.Click += btnDelete_Click;
